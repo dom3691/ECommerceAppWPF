@@ -56,6 +56,7 @@
                                IsHitTestVisible="False"
                                Visibility="{Binding NewCustomer.PhoneNumber, Converter={StaticResource StringNullOrEmptyToVisibilityConverter}}"/>
                 </Grid>
+                
                 <Button Width="100" Margin="5" Content="Add Customer" Command="{Binding AddCustomerCommand}"/>
             </StackPanel>
         </StackPanel>
